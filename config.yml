@@ -1,0 +1,16 @@
+
+# Model hyperparameters
+model_name : Residual
+ckpt_save_path : ./ckpts
+ckpt_path : ./ckpts
+report_path : ./reports
+learning_rate: 0.001
+batch_size: 64
+num_epochs: 1
+gamma : 0.7
+step_size : 5
+ckpt_save_freq : 100
+
+# Dataset parameters
+dataset:
+  path: ./datasets/cifar10/
